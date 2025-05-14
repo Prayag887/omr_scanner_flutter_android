@@ -26,7 +26,7 @@ class OmrScannerFlutterAndroidPlugin : FlutterPlugin, MethodCallHandler, Activit
       }
       "startScannerActivity" -> {
         try {
-          val intent = Intent(activity, Class.forName("com.example.myapplication.presentation.main.MainActivity"))
+          val intent = Intent(activity, Class.forName("com.prayag.omr_scan_aar.presentation.main.MainActivity"))
           activity?.startActivity(intent)
           result.success(null)
         } catch (e: Exception) {
