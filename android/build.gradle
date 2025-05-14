@@ -1,4 +1,4 @@
-group = "com.example.omr_scanner_flutter_android"
+group = "com.prayag.omr_scanner_flutter_android"
 version = "1.0-SNAPSHOT"
 
 buildscript {
@@ -37,7 +37,7 @@ repositories {
 
 
 android {
-    namespace = "com.example.omr_scanner_flutter_android"
+    namespace = "com.prayag.omr_scanner_flutter_android"
 
     compileSdk = 35
 

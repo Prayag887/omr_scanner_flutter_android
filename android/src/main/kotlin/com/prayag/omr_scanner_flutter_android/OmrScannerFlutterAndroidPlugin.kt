@@ -1,4 +1,4 @@
-package com.example.omr_scanner_flutter_android
+package com.prayag.omr_scanner_flutter_android
 
 import android.app.Activity
 import android.content.Intent

@@ -6,7 +6,7 @@ plugins {
 }
 
 android {
-    namespace = "com.example.omr_scanner_flutter_android_example"
+    namespace = "com.prayag.omr_scanner_flutter_android_example"
     compileSdk = flutter.compileSdkVersion
     ndkVersion = flutter.ndkVersion
 
@@ -20,7 +20,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.example.omr_scanner_flutter_android_example"
+        applicationId = "com.prayag.omr_scanner_flutter_android_example"
         minSdk = 24
         targetSdk = flutter.targetSdkVersion
         versionCode = flutter.versionCode

@@ -1,4 +1,4 @@
-package com.example.omr_scanner_flutter_android
+package com.prayag.omr_scanner_flutter_android
 
 import io.flutter.plugin.common.MethodCall
 import io.flutter.plugin.common.MethodChannel
