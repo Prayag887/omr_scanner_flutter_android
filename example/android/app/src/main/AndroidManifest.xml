@@ -2,7 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools">
     <application
         android:label="omr_scanner_flutter_android_example"
-        android:name="com.example.myapplication.MyApplication"
+        android:name="com.prayag.omr_scan_aar.MyApplication"
         android:icon="@mipmap/ic_launcher"
         tools:replace="android:label, android:name">
         <activity
