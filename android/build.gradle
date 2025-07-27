@@ -65,7 +65,8 @@ android {
 
         //0.1.3 has lower threshold for bubbles and the main code comprises 0.1.3 as well
         //0.2.3 has additional feature for filtering out the question numbers if detected but its still in testing phase
-        implementation("com.prayag:omr-scanner:0.2.4")
+        //0.2.4 is most accurate so far (Jul 24, 2025)
+        implementation("com.prayag:omr-scanner:0.2.9")
     }
 
     packagingOptions {
