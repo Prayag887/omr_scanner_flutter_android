@@ -18,7 +18,7 @@ allprojects {
             url = uri("https://maven.pkg.github.com/Prayag887/omr_scanner")
             credentials {
                 username = "Prayag887"
-                password = "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"
+                password = project.findProperty("gpr.key")
             }
         }
     }
