@@ -29,7 +29,7 @@ repositories {
         url = uri("https://maven.pkg.github.com/Prayag887/omr_scanner")
         credentials {
             username = "Prayag887"
-            password = project.findProperty("gpr.key")
+            password = "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"
         }
     }
 }
@@ -66,7 +66,7 @@ android {
         //0.1.3 has lower threshold for bubbles and the main code comprises 0.1.3 as well
         //0.2.3 has additional feature for filtering out the question numbers if detected but its still in testing phase
         //0.2.4 is most accurate so far (Jul 24, 2025)
-        implementation("com.prayag:omr-scanner:0.2.9")
+        implementation("com.prayag:omr-scanner:0.3.3")
     }
 
     packagingOptions {
