@@ -33,3 +33,5 @@ migrate_working_dir/
 build/
 example/android/gradle.properties
 example/android/local.properties
+
+example/android/secrets.properties
