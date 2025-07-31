@@ -26,7 +26,14 @@ class OmrScannerFlutterAndroidPlugin : FlutterPlugin, MethodCallHandler, Activit
       }
       "startScannerActivity" -> {
         try {
+          val rollNumber = call.argument<String>("rollNumber")
           val intent = Intent(activity, Class.forName("com.prayag.omr_scan_aar.presentation.main.MainActivity"))
+
+          // Pass the roll number to the scanner activity
+          rollNumber?.let {
+            intent.putExtra("ROLL_NUMBER", it)
+          }
+
           activity?.startActivity(intent)
           result.success(null)
         } catch (e: Exception) {

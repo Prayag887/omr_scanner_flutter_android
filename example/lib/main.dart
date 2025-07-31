@@ -1,7 +1,4 @@
 import 'package:flutter/material.dart';
-import 'dart:async';
-
-import 'package:flutter/services.dart';
 import 'package:omr_scanner_flutter_android/omr_scanner_flutter_android.dart';
 
 void main() {
@@ -25,7 +22,6 @@ class _MyAppState extends State<MyApp> {
     // initPlatformState();
   }
 
-
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -41,7 +37,8 @@ class _MyAppState extends State<MyApp> {
               ElevatedButton(
                 onPressed: () async {
                   try {
-                    await _omrScannerFlutterAndroidPlugin.startScannerActivity();
+                    await _omrScannerFlutterAndroidPlugin
+                        .startScannerActivity("12312");
                   } catch (e) {
                     debugPrint('Error launching AAR activity: $e');
                   }
@@ -54,5 +51,4 @@ class _MyAppState extends State<MyApp> {
       ),
     );
   }
-
 }
