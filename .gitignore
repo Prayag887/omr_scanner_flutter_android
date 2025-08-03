@@ -35,3 +35,6 @@ example/android/gradle.properties
 example/android/local.properties
 
 example/android/secrets.properties
+
+# FVM Version Cache
+.fvm/
